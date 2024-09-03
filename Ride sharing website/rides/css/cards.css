@@ -1,0 +1,33 @@
+.card {
+    border: 1px solid #be3535;
+    border-radius: 50px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.card-content {
+    padding: 20px;
+}
+
+.card p {
+    margin: 0;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.card p:first-child {
+    font-weight: bold;
+    color: #333;
+}
+
+card {
+    border: 20px solid #14913e; /* Add border to the card */
+    border-radius: 8px; /* Add border radius to the card */
+    margin-bottom: 50px; /* Add margin to separate each card */
+    padding: 10px; /* Add padding for content spacing */
+}
+
+.button-group {
+    display: flex;
+    justify-content: flex-end;
+}
